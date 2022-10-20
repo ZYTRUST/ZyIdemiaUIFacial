@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZyIdemiaUIFacial'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of ZyIdemiaUIFacial.'
 
 # This description is used to generate tags and improve search results.
@@ -32,10 +32,10 @@ TODO: Add long description of the pod here.
 
   #s.resources = 'ZyIdemiaUIFacial/Assets/**/*.{lproj,storyboard,xcassets,png}'
 
-  s.resources = 'ZyIdemiaUIFacial/Assets/**/*.{lproj,storyboard}'
+  s.resources = 'ZyIdemiaUIFacial/Assets/**/*.{lproj,storyboard,xcassets,png}'
 
    s.resource_bundles = {
-     'ZyIdemiaUIFacial' => ['ZyIdemiaUIFacial/Assets/**/*.{xcassets,png}']
+     'ZyIdemiaUIFacial' => ['ZyIdemiaUIFacial/Assets/**/*.{lproj,storyboard,xcassets,png}']
    }
   # s.resource_bundles = {
   #   'ZyIdemiaUIFacial' => ['ZyIdemiaUIFacial/Assets/*.png']
