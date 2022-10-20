@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZyIdemiaUIFacial_Example' do
+  pod 'ZyIdemiaUIFacial', :path => '../'
+
+  target 'ZyIdemiaUIFacial_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
