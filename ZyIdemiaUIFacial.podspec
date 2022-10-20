@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZyIdemiaUIFacial'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of ZyIdemiaUIFacial.'
 
 # This description is used to generate tags and improve search results.
@@ -24,14 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/ZYTRUST/ZyIdemiaUIFacial'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ivan Caceres -> ZyTrust SA' => 'ztmobile@zytrust.com' }
+  s.author           = { 'ZYTRUST SA' => 'ztmobile@zytrust.com' }
   s.source           = { :git => 'https://github.com/ZYTRUST/ZyIdemiaUIFacial.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.0'
 
-  #s.source_files = 'ZyIdemiaUIFacial/Classes/**/*'
-  s.resources = 'ZyIdemiaUIFacial/Assets/*.{lproj,storyboard,xcassets,png}'
+  s.resources = 'ZyIdemiaUIFacial/Assets/**/*.{lproj,storyboard,xcassets,png}'
 
   # s.resource_bundles = {
   #   'ZyIdemiaUIFacial' => ['ZyIdemiaUIFacial/Assets/*.png']
